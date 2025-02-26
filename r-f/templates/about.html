@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://source.unsplash.com/random/1600x900') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+            width: 60%;
+            max-width: 800px;
+        }
+        a {
+            color: limegreen;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi, my name is Uzayr!</h1>
+        <p>Welcome to my first Docker project.</p>
+        <h2>About This Project</h2>
+        <p>I created a multi-container application using Python Flask and Redis.</p>
+        <h3>Project Features:</h3>
+        <ul>
+            <li>A Flask web app with two routes:</li>
+            <ul>
+                <li><strong>/</strong>: Displays a welcome message.</li>
+                <li><strong>/count</strong>: Increments and displays a visit count stored in Redis.</li>
+            </ul>
+            <li>Redis is used as a key-value store to track the visit count.</li>
+            <li>Both Flask and Redis services are dockerized using Docker Compose.</li>
+            <li>Persistent storage is configured for Redis using volumes.</li>
+            <li>Environment variables are used to manage Redis connection details.</li>
+            <li>The Flask service is scalable, and Nginx is used as a load balancer.</li>
+        </ul>
+        <h3>Testing the Application:</h3>
+        <ul>
+            <li>Visit <strong>http://localhost:5000</strong> to see the welcome page.</li>
+            <li>Visit <strong>http://localhost:5000/count</strong> to see the visit count increase with each refresh.</li>
+        </ul>
+        <h3>Bonus Features:</h3>
+        <ul>
+            <li>Redis data persistence using Docker volumes.</li>
+            <li>Environment variables for flexible configurations.</li>
+            <li>Load balancing with Nginx and multiple Flask instances.</li>
+        </ul>
+        <p>View the full project details and code on my GitHub:</p>
+        <p><a href="https://github.com/Uzayr121/docker/tree/main/r-f" target="_blank">GitHub Repository</a></p>
+    </div>
+</body>
+</html>
