@@ -6,7 +6,7 @@ This project showcases a lightweight microservices setup where a Flask-powered w
 
 
 ## File structure
-
+``
 └── redis flas/
     ├── images/
     │   ├── about.png
@@ -23,6 +23,12 @@ This project showcases a lightweight microservices setup where a Flask-powered w
     └── README.md
     
 
+
+
+
+
+
+``
 ## Tools used
 
 - **Python (Flask)** — Backend web framework  
