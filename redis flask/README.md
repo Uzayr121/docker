@@ -20,7 +20,8 @@ redis flask/
 ├── Docker-compose.yml
 ├── Dockerfile
 ├── nginx.conf
-└── README.md```
+└── README.md
+```
 ## Tools used
 
 - **Python (Flask)** — Backend web framework  
