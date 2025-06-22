@@ -7,19 +7,22 @@ This project showcases a lightweight microservices setup where a Flask-powered w
 
 ## File structure
 
-``redis-flask-app/
-├── app.py                  # Flask app entry point
-├── Dockerfile              # Defines the Flask app image
-├── docker-compose.yml      # Manages Redis, Flask, and Nginx containers
-├── nginx.conf              # Custom Nginx config for load balancing
-├── templates/              # HTML templates (frontend views)
-│   ├── about.html
-│   ├── count.html
-│   └── index.html
-├── images/                 # Screenshots and visual assets
-│   ├── count.gif
-│   ├── about.png
-│   └── main.png ``
+``.
+└── redis flas/
+    ├── images/
+    │   ├── about.png
+    │   ├── count.gif
+    │   └── main.png
+    ├── templates/
+    │   ├── about.html
+    │   ├── count.html
+    │   └── index.html
+    ├── app.py
+    ├── Docker-compose.yml
+    ├── Dockerfile
+    ├── nginx.cong
+    └── README.md
+    ``
 
 ## Tools used
 
