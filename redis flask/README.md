@@ -6,7 +6,21 @@ This project showcases a lightweight microservices setup where a Flask-powered w
 
 
 ## File structure
-<pre> redis-flask/ ├── images/ │ ├── about.png │ ├── count.gif │ └── main.png ├── templates/ │ ├── about.html │ ├── count.html │ └── index.html ├── app.py ├── docker-compose.yml ├── Dockerfile ├── nginx.conf └── README.md </pre>
+```
+redis flask/
+├── images/
+│   ├── about.png
+│   ├── count.gif
+│   └── main.png
+├── templates/
+│   ├── about.html
+│   ├── count.html
+│   └── index.html
+├── app.py
+├── Docker-compose.yml
+├── Dockerfile
+├── nginx.conf
+└── README.md```
 ## Tools used
 
 - **Python (Flask)** — Backend web framework  
