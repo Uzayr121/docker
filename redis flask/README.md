@@ -21,14 +21,7 @@ This project showcases a lightweight microservices setup where a Flask-powered w
     ├── Dockerfile
     ├── nginx.cong
     └── README.md
-    
-
-
-
-
-
-
-``
+    ``
 ## Tools used
 
 - **Python (Flask)** — Backend web framework  
